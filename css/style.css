@@ -1,7 +1,9 @@
+.body,
 body {
     display: flex;
     flex-direction: column;
     font-family: Roboto, sans-serif;
+    margin: 0;
 }
 
 .header {
@@ -66,8 +68,12 @@ body {
     background-color: #3882F6;
     color: white;
     font-size: 14px;
+    font-weight: 700;
     width: 90px;
     padding: 8px;
+    border-radius: 8px;
+    box-shadow: none;
+    border: 0;
 }
 
 h2 {
