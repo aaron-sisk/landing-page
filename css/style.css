@@ -12,13 +12,15 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
+    height: 425px;
     padding: 0 150px;
     background-color: #1F2937;
 }
 
 .header-bar,
 .header-cards {
-    max-width: 900px;
+    width: 900px;
 }
 
 .header-bar {
