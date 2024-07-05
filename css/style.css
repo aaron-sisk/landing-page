@@ -160,14 +160,24 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: stretch;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 325px;
 }
 
 .call-to-action {
-
+    display:flex;
+    width: 900px;
+    height: 150px;
+    background-color: #3882F6;
 }
 
 .copyright {
+    display: flex;
     background-color: #1F2937;
     height: 100px;
     text-align: center;
