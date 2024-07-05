@@ -29,7 +29,7 @@ body {
     align-items: center;
 }
 
-.logo{
+.logo {
     color: #F9FAF8;
     font-size: 24px;
 }
@@ -173,9 +173,25 @@ body {
 
 .call-to-action {
     display:flex;
+    justify-content: center;
+    align-items: center;
     width: 900px;
     height: 150px;
     background-color: #3882F6;
+}
+
+.cta-button {
+    margin: 0;
+    background-color: #3882F6;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    height: 30px;
+    width: 90px;
+    padding: 8px;
+    border-radius: 8px;
+    border: 2px solid white;
+    box-shadow: none;
 }
 
 .copyright {
